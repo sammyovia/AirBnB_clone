@@ -2,21 +2,21 @@
   <img src="https://github.com/bdbaraban/AirBnB_clone/blob/master/assets/hbnb_logo.png" alt="HolbertonBnB logo">
 </p>
 
-<h1 align="center">HolbertonBnB</h1>
+<h1 align="center">AirBnB ALX</h1>
 <p align="center">An AirBnB clone.</p>
 
 ---
 
 ## Description :house:
 
-HolbertonBnB is a complete web application, integrating database storage, 
+AirBnB is a complete web application, integrating database storage, 
 a back-end API, and front-end interfacing in a clone of AirBnB.
 
 The project currently only implements the back-end console.
 
 ## Classes :cl:
 
-HolbertonBnB utilizes the following classes:
+AirBnB utilizes the following classes:
 
 |     | BaseModel | FileStorage | User | State | City | Amenity | Place | Review |
 | --- | --------- | ----------- | -----| ----- | -----| ------- | ----- | ------ |
@@ -90,7 +90,7 @@ $
 
 ### Console Commands
 
-The HolbertonBnB console supports the following commands:
+The Alx_AirBnB console supports the following commands:
 
 * **create**
   * Usage: `create <class>`
@@ -236,10 +236,10 @@ $ ./console.py
 (hbnb) create User
 6f348019-0499-420f-8eec-ef0fdc863c02
 (hbnb)
-(hbnb) update User 6f348019-0499-420f-8eec-ef0fdc863c02 first_name "Holberton"
+(hbnb) update User 6f348019-0499-420f-8eec-ef0fdc863c02 first_name "sammy"
 (hbnb) show User 6f348019-0499-420f-8eec-ef0fdc863c02
 [User] (6f348019-0499-420f-8eec-ef0fdc863c02) {'created_at': datetime.datetime(
-2019, 2, 17, 21, 54, 39, 234382), 'first_name': 'Holberton', 'updated_at': date
+2019, 2, 17, 21, 54, 39, 234382), 'first_name': 'sammy', 'updated_at': date
 time.datetime(2019, 2, 17, 21, 54, 39, 234382), 'id': '6f348019-0499-420f-8eec-
 ef0fdc863c02'}
 (hbnb)
@@ -277,5 +277,5 @@ $ python3 unittest -m tests/test_console.py
 ```
 
 ## Authors :black_nib:
-* **Brennan D Baraban** <[bdbaraban](https://github.com/bdbaraban)>
-* **Samie Azad** <[sazad44](https://github.com/sazad44)>
+* **Samuel E. Igbinovia** <[sammyovia](https://github.com/sammyovia)>
+* **Juluis Ochai Raphael** <[codemidev](https://github.com/codemidev)>
